@@ -9,21 +9,11 @@ A simple script to control the fan speed on IBM x series servers. Since these se
 - Tested on IBM x3650 M2, should work on other IBM x series servers (no guarantees)
 
 # Results
-Here are some temp charts at idle, 50% util, and 100% util. across all cores.
-<div style="display: flex; justify-content: center; gap: 0px;">
-    <figure style="text-align: center;">
-        <img src="images/idle.png" alt="Idle Temperature" width="100%">
-        <figcaption>Idle CPU Temperature</figcaption>
-    </figure>
-    <figure style="text-align: center;">
-        <img src="images/50.png" alt="50% Utilization Temperature" width="100%">
-        <figcaption>CPU Temperature at 50% Utilization</figcaption>
-    </figure>
-    <figure style="text-align: center;">
-        <img src="images/100.png" alt="100% Utilization Temperature" width="100%">
-        <figcaption>CPU Temperature at 100% Utilization</figcaption>
-    </figure>
-</div>
+Here are some temp charts at idle, 50% utilization and 100% utilization across all cores. Even during 100% utilization, the fan speed never went above 50%. 
+![Temperature Charts](images/results.png)
+<p align="center">
+  <i>Ran sequentially from left to right on 2x Xeon X5670 CPUs</i>
+</p>
 
 
 # Installation
